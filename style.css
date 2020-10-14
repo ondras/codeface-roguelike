@@ -1,0 +1,54 @@
+body {
+	font-size: 18px;
+}
+
+div {
+	display: inline-block;
+}
+
+pre {
+	color: #666;
+	background-color: black;
+	padding: 1em;
+	margin-top: 0;
+}
+
+pre .floor {
+	color: #aaa;
+}
+
+pre .pc {
+	color: #66f;
+}
+
+pre .gold {
+	color: #ff1;
+}
+
+pre .trap {
+	color: #0f0;
+}
+
+pre .text {
+	color: #eee;
+}
+
+pre .gem {
+	color: red;
+}
+
+pre .lake {
+	color: cyan;
+}
+
+[type=checkbox]:not(:checked) ~ pre {
+	display: none;
+}
+
+footer {
+	font-size: 70%;
+	text-align: center;
+	padding-top: 1em;
+	margin-top: 1em;
+	border-top: 1px solid gray;
+}
